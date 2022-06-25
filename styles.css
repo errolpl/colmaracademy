@@ -1,3 +1,25 @@
 html {
-  background-color: red;
+  font-size: 16px;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo_text {
+
+
+}
+
+.logo_first {
+  font-family: "Arial",sans-serif;
+  font-weight: bolder;
+}
+
+.logo_second {
+  font-family: "Arial",sans-serif;
+  font-weight: lighter;
+  color: darkgrey;
 }
