@@ -39,3 +39,33 @@ nav {
 nav ul li {
   display: inline;
 }
+
+/* Start Here Section */
+
+.start_here_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #D3D3D3;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.start_here_section img {
+  width: 60%;
+  height: auto;
+}
+
+.start_here_copy {
+  margin: auto;
+  width: 25%;
+  color: 	#404040;
+}
+
+.start_here_cta {
+  background-color: 	#404040;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
