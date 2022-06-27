@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
   font-family: "Arial",sans-serif;
+
 }
 
 header {
@@ -52,7 +53,7 @@ nav ul li {
 }
 
 .start_here_section img {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
@@ -68,4 +69,72 @@ nav ul li {
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+/* Keep Practicing Section */
+
+.keep_practicing_section {
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.keep_practing_main {
+  width: 60%;
+  float: left;
+}
+
+.keep_practing_main img {
+  width: 100%;
+}
+
+.keep_practing_main h1 {
+  color: #404040;
+}
+
+.keep_practing_main p {
+  color: grey;
+}
+
+.keep_practing_main .caption {
+  color: black;
+  font-size: .75rem;
+}
+
+.campus_info_column {
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 24px;
+}
+
+.info_image {
+  width: 35%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+}
+
+.info_image img {
+  width:100%;
+
+}
+
+.info_copy {
+  width: 65%;
+  float: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.campus_info_column h2 {
+  color: #404040;
+}
+
+.campus_info_column p {
+  color: #grey;
+}
+
+.campus_info_column a {
+  color: LightBlue;
+  text-decoration: none;
 }
