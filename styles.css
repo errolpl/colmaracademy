@@ -4,6 +4,10 @@ html {
 
 }
 
+p {
+    color: #grey;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -76,6 +80,7 @@ nav ul li {
 .keep_practicing_section {
   padding: 25px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .keep_practing_main {
@@ -107,6 +112,11 @@ nav ul li {
   padding-left: 24px;
 }
 
+.campus_info {
+  display: flex;
+  align-items: center;
+}
+
 .info_image {
   width: 35%;
   height: auto;
@@ -128,6 +138,7 @@ nav ul li {
 
 .campus_info_column h2 {
   color: #404040;
+  margin: 0;
 }
 
 .campus_info_column p {
@@ -135,8 +146,52 @@ nav ul li {
 }
 
 .campus_info_column a {
-  color: LightBlue;
+  color: CornflowerBlue;
   text-decoration: none;
 }
 
-/* next section */
+.info_copy p {
+  color: grey;
+}
+
+.highlight {
+  background-color: #D3D3D3;
+}
+
+/* Course Gallery */
+
+.courses {
+  background-color: #D3D3D3;
+  padding: 30px 72px;
+  box-sizing: border-box;
+}
+
+.courses h1 {
+  text-align: center;
+}
+
+.courses_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.course_box {
+  width: 30%;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.course_box img {
+  width: 100%;
+  height: auto;
+}
+
+.course_box p {
+  color: grey;
+}
+
+.course_box_copy {
+  box-sizing: border-box;
+  padding: 16px;
+}
