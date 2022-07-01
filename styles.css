@@ -5,7 +5,7 @@ html {
 }
 
 p {
-    color: #grey;
+    color: #grey !important;
 }
 
 header {
@@ -194,4 +194,57 @@ nav ul li {
 .course_box_copy {
   box-sizing: border-box;
   padding: 16px;
+}
+
+/* Thesis Section */
+
+.thesis_section h1 {
+  text-align: center;
+}
+
+.thesis_section p {
+  color: grey;
+}
+
+.thesis_media {
+  width: 60%;
+  float: left;
+}
+
+.thesis_video {
+  margin-right: 20px;
+}
+
+.thesis_column {
+  width: 40%;
+  float: left;
+}
+
+.thesis_box {
+  overflow: hidden;
+}
+
+.thesis_box img {
+  width: 35%;
+  float: left;
+  margin: 10px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.footer_caption {
+  font-size: .75rem;
+  color: grey;
+}
+
+.footer_links li {
+  display: inline;
+  margin: 10px;
+  color: grey;
 }
